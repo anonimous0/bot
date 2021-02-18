@@ -1,5 +1,5 @@
 import telebot
-bot = telebot.TeleBot('1378942416:AAGJvCM3qqaQWf0P3HKSQgooQOaOIrc5oNw')
+bot = telebot.TeleBot('1635480878:AAHkQvCVcKfTtP5ibzTNLZG5IGUhgoKPu38')
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
     bot.reply_to(message, f'Я бот. Приятно познакомиться, {message.from_user.first_name}')
